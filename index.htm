@@ -1,12 +1,10 @@
 <!DOCTYPE html><html lang="en" class="no-js"><head><meta charset="UTF-8" /><meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1"><title>3D Stack</title>
+<meta name="viewport" content="width=device-width, initial-scale=1"><title>Limelight Domain Store</title>
 <meta name="description" content="3D map concept with a search and pin indicators for every level. " />
-<meta name="keywords" content="mall map, 3d, css, javascript, pin, levels, floor map" />
-<meta name="author" content="" /><link rel="shortcut icon" href="favicon.ico">
-<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+<meta name="keywords" content="domain store" /><meta name="author" content="Chris Setz" />
+<link rel="shortcut icon" href="favicon.ico"><link rel="stylesheet" type="text/css" href="css/normalize.css" />
 <link rel="stylesheet" type="text/css" href="css/!szstyle.css" /><script src="js/modernizr-custom.js"></script></head><body>
-<svg class="hidden"><!-- http://tympanus.net/codrops/2016/04/13/interactive-3d-mall-map -->
-<defs><symbol id="icon-pin" viewBox="0 0 200 300"><title>pin</title><path d="M100,21.78A85,85,0,0,0,15.18,106.6c0,18.85,12.08,49.52,36.76,93.9,17.48,31.36,34.7,57.49,35.47,58.6L100,278.22l12.59-19.11c0.69-1.11,18-27.25,35.47-58.6,24.76-44.38,36.76-75.06,36.76-93.9A85,85,0,0,0,100,21.78Z" /></symbol>
+<svg class="hidden"><defs><symbol id="icon-pin" viewBox="0 0 200 300"><title>pin</title><path d="M100,21.78A85,85,0,0,0,15.18,106.6c0,18.85,12.08,49.52,36.76,93.9,17.48,31.36,34.7,57.49,35.47,58.6L100,278.22l12.59-19.11c0.69-1.11,18-27.25,35.47-58.6,24.76-44.38,36.76-75.06,36.76-93.9A85,85,0,0,0,100,21.78Z" /></symbol>
 <symbol id="icon-search" viewBox="0 0 32 32"><title>search</title><path class="path1" d="M26.819 24.917c0.262 0.262 0.262 0.688 0 0.951l-0.951 0.951c-0.263 0.262-0.688 0.262-0.951 0l-6.656-6.656c-0.072-0.072-0.12-0.158-0.153-0.248-1.365 0.998-3.041 1.593-4.862 1.593-4.562 0-8.261-3.699-8.261-8.261s3.699-8.261 8.261-8.261c4.562 0 8.261 3.699 8.261 8.261 0 1.821-0.595 3.497-1.593 4.862 0.091 0.032 0.176 0.080 0.248 0.153l6.656 6.656zM13.246 7.739c-3.041 0-5.508 2.466-5.508 5.508s2.466 5.508 5.508 5.508 5.508-2.466 5.508-5.508c0-3.041-2.466-5.508-5.508-5.508z"></path></symbol>
 <symbol id="icon-stack" viewBox="0 0 32 32"><title>stack</title><path class="path1" d="M29.143 11.071l-13.143-6.571-13.143 6.571 13.143 6.571 13.143-6.571zM16 6.681l8.781 4.39-8.781 4.39-8.781-4.39 8.781-4.39zM26.51 14.684l2.633 1.316-13.143 6.571-13.143-6.571 2.633-1.316 10.51 5.255zM26.51 19.612l2.633 1.316-13.143 6.571-13.143-6.571 2.633-1.316 10.51 5.255z"></path></symbol>
 <symbol id="icon-cross" viewBox="0 0 24 24"><title>cross</title><path class="path1" d="M18.016 5.125q0.369 0 0.614 0.245t0.245 0.614q0 0.363-0.248 0.611l-5.411 5.405 5.411 5.405q0.248 0.248 0.248 0.611 0 0.369-0.245 0.614t-0.614 0.245q-0.363 0-0.611-0.248l-5.405-5.411-5.405 5.411q-0.248 0.248-0.611 0.248-0.369 0-0.614-0.245t-0.245-0.614q0-0.363 0.248-0.611l5.411-5.405-5.411-5.405q-0.248-0.248-0.248-0.611 0-0.369 0.245-0.614t0.614-0.245q0.363 0 0.611 0.248l5.405 5.411 5.405-5.411q0.248-0.248 0.611-0.248z"></path></symbol>
@@ -82,7 +80,7 @@
 <symbol id="icon-modx" viewBox="0 0 32 32"><title>modx</title><path class="path1" d="M25.482 12.661l-10.964-6.893 1.643-2.696h15.268zM7.232 17.393l-3.286-2.071v-15.321l21.125 13.268zM25.429 14.982l2.625 1.696v15.321l-9.5-5.982zM24.768 14.607l-8.929 14.321h-15.268l6.357-10.196z"></path></symbol></defs></svg>
 <div class="container"><div class="main"><header class="sz3ds-header">
 	<div class="sz3ds-links"><a class="sz3ds-icon sz3ds-icon--prev" href="/" title="Home"><span>Home</span></a>
-		<a class="sz3ds-icon sz3ds-icon--drop" href="../!sz2doabout.htm" title="about us"><span>about us</span></a></div><h1>Interactive Mall Map</h1></header>
+		<a class="sz3ds-icon sz3ds-icon--drop" href="../!sz2doabout.htm" title="about us"><span>about us</span></a></div><h1>Limelight Domain Store</h1></header>
 <div class="mall"><div class="surroundings"><img class="surroundings__map" src="img/surroundings.svg" alt="Surroundings"/></div>
 	<div class="levels"><div class="level level--1" aria-label="Level 1">
 	<svg class="map map--1" viewBox="0 0 1200 800" width="100%" height="100%" preserveAspectRatio="xMidYMid meet">
